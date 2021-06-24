@@ -11,7 +11,7 @@ header{
 }
 #bg{
     grid-area: left;
-    background: url('/ROCKETQ/assets/logo.svg') no-repeat top/contain;
+    background: url('/ROCKETQ/assets/back.svg') no-repeat top/contain;
 }
 main{
     grid-area: right;
@@ -20,7 +20,7 @@ main{
 }
 
 main .container{
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2{
@@ -32,6 +32,11 @@ main h2{
 
 }
 
+input{
+    border: .2rem solid var(--grey-blue);
+    padding: 0 1.6rem;
+    outline: none;
+}
 input, button .button{
     width: 100%;
     margin-bottom: 1.8rem;

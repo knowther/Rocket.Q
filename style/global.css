@@ -22,15 +22,15 @@ html{
     font-size: 62.5%;
 }
 body{
+    display: flex;
     height: 100 vh;
-    width: 100 vw;
     background: var(--background);
 }
 
 body, button, input, textarea{
     font-size: clamp(14px, 1.6rem, 2vw);
     font-family: 'Open Sans', sans-serif;
-    /* font-family: 'Poppins', sans-serif; */
+   
     
 }
 .content{
@@ -74,10 +74,10 @@ input, button, .button{
 }
 
 button:hover, .button:hover{
-    filter: brightness(1.2);
+    filter: brightness(1.1);
 }
 
-button > img
+button > img,
 .button >img{
  margin-right: 1rem;
  width: 2rem;
@@ -92,9 +92,9 @@ button.outlined,
 
 .content header{
     width: 80%;
+    margin: 3.5rem auto;
 
 }
 .content header img{
     width: 16.7rem;
-    margin: 3.5rem , auto;
 }
